@@ -15,7 +15,7 @@ int main() {
 	f = pow(a, 3) * pow(x, 2) - b / c;
 	cout << "f= " << f;
 	}
-	else { cout << "Помилка (с==0)"; }
+	else { cout << "Error(с == 0)"; }
 	}
 	else if ((x + b > 10) && (b == 0)) {
 		if ( (x-c)!=0 ) { 
