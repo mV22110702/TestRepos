@@ -22,13 +22,13 @@ int main() {
 			f = a + (b - a) / (x - c);
 			cout << "f= " << f;
 		}
-		else { cout << "Помилка ((x-c)==0)"; }
+		else { cout << "Error ((x-c)==0)"; }
 	}
 	else {
 		if ( c!=0 ) { 
 		f = x / pow(c, 3); 
 		cout << "f= " << f; }
-		else { cout << "Помилка (с==0)"; }
+		else { cout << "Error (с==0)"; }
 	}
 	return 0;
 }
